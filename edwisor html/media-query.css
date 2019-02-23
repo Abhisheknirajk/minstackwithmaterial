@@ -1,0 +1,36 @@
+.container{
+	margin:0;
+	padding:0;
+	display:block;
+	
+}
+.container-item{
+	background:blue;
+	width:50vw;
+	height:40vw;
+}
+.container-font{
+	font-size:4rem;
+	font-weight:300;
+	text-align
+}
+@media screen and(min-width:768px){
+	.container-item{
+		height:3px;
+		background-color:3F3FBF;
+		
+	}
+	.container-font{
+		font-size:60px;
+		background-color:red;
+	}
+}
+@media screen and(min-width:480px and (max-width:767px){
+	.container-item{
+		height:60vw;
+	background-color:green;}
+	.container-font{
+		font-size:1.3rem;
+		color:pink;
+	}
+}

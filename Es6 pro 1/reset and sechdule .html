@@ -1,0 +1,31 @@
+<DOCTYPE html>
+<html>
+<body>
+<script>
+let allUsersAddress =[]
+let storeallUsersAddress = (userId,...addressstore)=>{
+	console.log(userId)
+	console.log(addressstore)
+
+	let compositeAddress={userId:userId,userAddes:addressstore}
+	allUsersAddress.push(compositeAddress)
+	console.log(allUsersAddress)
+	return allUsersAddress
+};
+let firstAddress={
+	"vill":"konauly",
+	"post":"jalahara",
+	"postoffice":"rajpur",
+	"distic":"busar",
+	"pincode":802128
+}
+let secandAddress={
+	"street":"Delta 1",
+	"Block":"B",
+	"House no":151,
+	"pincode":20138
+}
+storeallUsersAddress("abhishekniraj133@gmail.com",firstAddress,secandAddress)
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.parent{
+	background:tomato;
+	padding:5px; 
+	text-align:center;
+	width:70vw;
+
+}
+.child{
+	background: blueviolet;
+	display:inline-block;
+	height:20vw;
+	width:20vw;
+}
+.secand_child{
+	background: deepskyblue;
+	display:inline-block;
+	height:20vw;
+	width:20vw;
+}
+.third_child{
+	background: lime;
+	display:inline-block;
+	height:20vw;
+	width:20vw;
+}

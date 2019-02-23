@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html> 
+      
+<head> 
+    <title> 
+        Auto captcha verification 
+    </title> 
+      
+    <script src = 
+'https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js'> 
+    </script> 
+</head> 
+  
+<body> 
+    <img id = "img" src = "image1.JPEG" /> 
+      
+    <div id = "GFG"></div> 
+      
+    <!-- script for auto captcha verification -->
+    <script> 
+        let progress = document.querySelector('#GFG'); 
+          
+        Tesseract.recognize('image1.JPEG') 
+          
+        .progress(function(p) { 
+            progress.innerHTML += JSON.stringify(p) + "<br>" 
+        }) 
+          
+        .then(function(result) { 
+            var captcha = result.text; 
+            alert(captcha) 
+        }) 
+    </script> 
+</body> 
+  
+</html>                 

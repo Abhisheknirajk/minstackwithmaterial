@@ -1,0 +1,37 @@
+h1,h2{
+	color : green;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:2em;
+	font-family:"Roboto";
+}
+
+div{
+	border-width:1px;
+	border-color:#afafaf;
+	margin-top:10px;
+	margin-right:10px;
+	margin-bottom: 10px;
+	margin-left:10px;
+}
+
+.parent{
+	background:tomato;
+    width:200px;
+}
+.child{
+	background: khaki;
+	width:50%;
+}
+.parent_1{
+	background:tomato;
+    width:200px;
+    font-size:20px;
+}
+.child_1{
+	background: khaki;
+	width:50%;
+		font-size:2em;
+
+
+}

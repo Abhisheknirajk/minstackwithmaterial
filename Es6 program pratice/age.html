@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var cal=function(day,month,year){
+
+var today = new Date();
+var age = today.getFullYear() - year;
+if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < day)) {
+  return age--;
+}
+};
+alert(cal(25,12,1997));
+</script>
+</body>
+</html>

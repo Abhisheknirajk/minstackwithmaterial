@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+let factorial=(x)=>{
+if (x<2){
+
+return 1;
+}
+else{
+return x*factorial(n-1);
+}
+
+}
+</script>
+</body>
+</html>

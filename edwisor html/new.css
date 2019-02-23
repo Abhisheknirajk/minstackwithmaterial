@@ -1,0 +1,23 @@
+.parent{
+	background:tomato;
+	width:70vw;
+	padding:5px;
+	text-align:center;
+}
+.child{
+	background:blue;
+	display:inline-block;
+	width:20vw;
+	height:20vm;
+   
+}
+.second-child{
+	background:khaki;
+	display:inline-block;
+	height:20vw;
+	width:20vw;
+}.third-child{
+	background:lime;
+	display:inline-block;
+	height:20vw;
+	width:20vw;
